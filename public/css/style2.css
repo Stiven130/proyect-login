@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+.fondo {
+    border: 1px solid black;
+    height: 80vh;
+}
+
+.fondoImg {
+    background-image: url('../assets/img/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* /Background */
+
+/* Formulario */
+.contenedorF {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30vw;
+    height: 65vh;
+    border-radius: 0 0 20% 20%;
+}
+
+.avatar{
+    height: 70px;
+    width: 70px;
+}
+
+.btnI-custom {
+    height: 15%;
+    width: 67%;
+    background-color: #074254;
+    border: none;
+}
+
+.btnI-custom:hover {
+    background-color: #01151b;
+}
+
+.btnR-custom {
+    height: 15%;
+    width: 80%;
+    background-color: #d9d9d9;
+    color: black;
+    border: none;
+}
+
+.btnR-custom:hover {
+    background-color: #6f6f6f;
+}
+
+.formulario {
+    border: 1px solid black;
+    border: none;
+    background-color: transparent;
+    width: 60%;
+    height: 70%;
+    margin-bottom: -25%;
+}
+
+.text-justify{
+    text-align: justify;
+    font-size: 16px; /* Tamaño de fuente personalizado */
+    line-height: 1.5; /* Altura de línea personalizada */
+}
+.cuadroTexto{
+    height: auto;
+    width: 100%;
+}
+
+.btn-customNosotros{
+    width: 50%;
+}
+
+.btn-customProductos{
+    width: 50%;
+}
+/* /Formulario */
+
+/* Footer */
+.footer {
+    height: 15vh;
+}
+
+.footerI {
+    background-color: #55A605
+}
+
+.footerF {
+    height: 5vh;
+}
+/* /Footer */
+
+
+
+
+
